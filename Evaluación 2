@@ -1,0 +1,190 @@
+<html>
+    <head>
+        <!--Usamos charset UTF-8 para evitar errores-->
+        <meta charset="UTF-8">
+        <!--Colocamos un nombre al encabezado-->
+        <title>OutletPark</title>
+        <!--Importamos nuestro archivo css-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <!--Creamos el header de la página, donde irán el logo, unas cuantas imágenes y textos -->
+    <header>
+            <h2><img src="img/Logo.png"/><img src="img/Tiendas.png"/>Tiendas<img src="img/Panoramas.png"/>Panoramas<img src="img/Ubicación.png"/>Ubicación</h2>
+    </header>
+    <!--Creamos el cuerpo de la página-->
+    <body>
+        <!--Creamos la clase fondo, a la cual pertenecerá una imagen en una posición específica, con texto dentro de ella,
+        por eso creamos también diferentes clases para los textos y así ubicarlos bien sobre el fondo-->
+        <div class="fondo">
+            <img src="img/Fondo.png" width="100%" height="80%"/>
+            <div class="Recuerda">Recuerda</div>
+            <div class="Horario">nuestro horario</div>
+            <div class="Lunes">Lunes a Domingo</div>
+        </div><br><br>
+        <h2>Tiendas</h2><br>
+        <!--Creamos una tabla, donde en cada casilla irá una imagen de fondo, con un texto blanco al centro de esta-->
+        <table>
+            <th>
+                <div class="Tiendas">
+                    <img src="img/Mujer.png"/>
+                    <div class="Tiendatexto">Mujer</div>
+                </div>
+            </th>
+            <th>
+                <div class="Tiendas">
+                    <img src="img/Hombre.png"/>
+                    <div class="Tiendatexto">Hombre</div>
+                </div>
+            </th>
+            <th>
+                <div class="Tiendas">
+                    <img src="img/Infantil.png"/>
+                    <div class="Tiendatexto">Infantil</div>
+                </div>
+            </th>
+            <th>
+                <div class="Tiendas">
+                    <img src="img/Living.png"/>
+                    <div class="Tiendatexto">Deco Hogar</div>
+                </div>
+            </th>
+        </table>
+        <!--Creamos otra tabla, con la diferencia que acá el fondo de la imagen es más oscuro, además de ser necesario crear 2 filas para esta tabla-->
+        <h2>Panoramas</h2>
+        <table>
+            <tr>
+                <td>
+                    <div class="Panoramas">
+                        <img src="img/Show.png"/>
+                        <div class="Tiendatexto">Show Infantil</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="Panoramas">
+                        <img src="img/Discovery.png"/>
+                        <div class="Tiendatexto">Discovery Land</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="Panoramas">
+                        <img src="img/Rum.png"/>
+                        <div class="Tiendatexto">Rum Rum Cars</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="Panoramas">
+                        <img src="img/Comida.png"/>
+                        <div class="Tiendatexto">Patio de Comida</div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="Panoramas">
+                        <img src="img/Emprendedor.png"/>
+                        <div class="Tiendatexto">Feria de Emprendedores</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="Panoramas">
+                        <img src="img/Moto.png"/>
+                        <div class="Tiendatexto">Pronto más panoramas</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="Panoramas">
+                        <img src="img/Manualidad.png"/>
+                        <div class="Tiendatexto">Pronto más panoramas</div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <!--Creamos un texto con la ubicación de la tienda, con una imagen debajo con un mapa de esta, lo ajustamos con un width-->
+        <h3>UBICACIÓN DE LAS TIENDAS</h3>
+        <img src="img/Mapa.png" width="80%"/>
+    </body>
+    <!--Creamos un pie de página-->
+    <footer>
+        <br>
+        <h2>LOCOMOCIÓN</h2>
+        <!--Creamos una tabla donde en la primera fila irán los nombres de las ciudades, y en la segunda las micros, acompañadas de una imagen-->
+        <table>
+            <tr>
+                <th>DESDE VALPARAÍSO</th>
+                <th>DESDE VIÑA DEL MAR</th>
+                <th>DESDE ROTONDA DE CONCÓN</th>
+                <th>DESDE PEÑABLANCA</th>
+            </tr>
+            <tr>
+                <td>
+                    <div id="micro">
+                        <h3><img src="img/Transporte.png" width="50px"/>214-211-202</h3>
+                    </div>
+                </td>
+                <td>
+                    <div id="micro">
+                        <h3><img src="img/Transporte.png" width="50px"/>401-406-410-411</h3>
+                    </div>
+                </td>
+                <td>
+                    <div id="micro">
+                        <h3><img src="img/Transporte.png" width="50px"/>305</h3>
+                    </div>
+                </td>
+                <td>
+                    <div id="micro">
+                        <h3><img src="img/Transporte.png" width="50px"/>305</h3>
+                    </div>
+                </td>
+            </tr>
+        </table><br><br><br>
+        <table>
+            <!--Creamos otra tabla, con detalles varios, como la dirección, el horario y los contactos-->
+            <tr>
+                <th><br><br><br><br>
+                    <div class="Direccion">
+                        <h2>DIRECCIÓN</h2>
+                     </div>
+                </th>
+                <th>
+                    <h2>HORARIO</h2>
+                </th>
+                <th>
+                    <h2>CONTACTO</h2>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <!--Colocamos la imagen de la ubicación de la tienda y un texto con la dirección específica-->
+                    <div class="Mapa">
+                        <p><img src="img/Actual.png"/> Camino Internacional 2440, Reñaca Alto, Viña del Mar</p>
+                        <img src="img/Direccion.png"/>
+                    </div>
+                </td>
+                <td>
+                    <!--Creamos una lista no numerada, donde aparecen los horarios y las tarifas, para subrayar palabras usamos <u> y para las negritas usamos <b>-->
+                    <div class="Footertext">
+                        <ul>
+                            <li><b>LUNES A DOMINGO</b><br><br>
+                            de 10:00 a 20:00 hrs.</li><br><br>
+                            <li><b>Estacionamiento</b><br><br>
+                            <u>GRATIS</u> los primeros 30 minutos<br><br>
+                            Cada 1/2 hora = $500 pesos<br><br>
+                            Tarifa máxima = $3.500 pesos</li>
+                        </ul>
+                    </div>
+                </td>
+                <td>
+                    <!--Colocamos unas cuantas imágenes con los contactos, como el mail, el telefono, etc.-->
+                    <div class="Footertext">
+                        <p><img src="img/Mail.png" width="20px"/>novedades@outletpark.cl<br><br>
+                        <img src="img/Fono.png" width="20px"/>32 251 4100<br><br>
+                        <img src="img/Mensaje.png" width="20px"/>Enviar mensaje<br><br><br>
+                        <img src="img/Facebook.png"/><img src="img/Instagram.png"/></p>
+                    </div>
+                </td>
+        </table><br><br><br>
+        <!--Finalmente se colocan los derechos de dicha página y procedemos a terminar el pie de página-->
+        <div class="Final">@ 2020 Viña Outlet Park - Todos los derechos reservados. Diseñados por WORKLab</div><br><br>
+    </footer>
+</html>
